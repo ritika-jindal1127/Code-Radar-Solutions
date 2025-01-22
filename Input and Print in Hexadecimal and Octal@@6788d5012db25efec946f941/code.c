@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    char a;
-    scanf("%d",&a);
-    printf("Hexadecimal:%ch",a);
-    printf("Octal:%d",a);
+    int num;
+    scanf("%d",&num);
+    printf("Hexadecimal:%X",num);
+    printf("Octal:%o",num);
     return 0;
 }
