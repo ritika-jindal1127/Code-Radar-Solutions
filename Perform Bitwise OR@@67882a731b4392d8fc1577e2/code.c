@@ -5,5 +5,6 @@ int main()
     scanf("%d %d",&a,&b);
     result=a|b;
     printf("%d and %d is %d");
+    return 0;
 
 }
