@@ -7,5 +7,5 @@ int main()
     printf("Set");
     else 
     printf("Not Set");
-    result 0;
+    
 }
