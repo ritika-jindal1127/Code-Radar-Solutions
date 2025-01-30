@@ -1,10 +1,10 @@
 #include<stdio.h>
-int checkLSB(int number)
+int main()
 {
-  if(number & 1){
-    return 1;
-    }
-    else{
-        return 0;
-    }
+    int a;
+    scanf("%d",&a);
+    if(a&1 == 1)
+    printf("Set");
+    elseif(a&1==0)
+    printf("Not Set");
 }
