@@ -5,7 +5,7 @@ int main()
     scanf("%d %d",&a,&b);
     if(a>b)
     printf("Profit");
-    else
+    else if(b>a)
     printf("Loss");
     return 0;
     }
