@@ -5,6 +5,6 @@ int main()
     scanf("%d %d",&a,&n);
     if(a^(1<<n))
     printf("%d",num);
-    else
+    return 0;
     
     }
