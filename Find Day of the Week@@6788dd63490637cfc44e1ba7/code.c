@@ -16,4 +16,4 @@ int main()
     case 4:
     printf("Thursday");
     break;
-    
+}
