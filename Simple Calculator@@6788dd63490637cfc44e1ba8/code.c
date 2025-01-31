@@ -6,5 +6,5 @@ int main()
     scanf("%d %d",&a,&b);
     switch(c);
     case'+':
-    printf("a+b",+)
+    printf("%d%d",a+b);
 }
