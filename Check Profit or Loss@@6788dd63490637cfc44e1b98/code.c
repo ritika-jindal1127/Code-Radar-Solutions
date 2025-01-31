@@ -8,6 +8,6 @@ int main()
     else if(a>b)
     printf("Loss");
     else
-    printf("no profit/no loss");
+    printf("No profit No loss");
     return 0;
     }
