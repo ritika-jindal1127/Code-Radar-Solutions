@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,day;
-    scanf("%d",&a);
+    int day;
+    scanf("%d",&day);
     switch(day)
     case 1:
     printf("Monday");
