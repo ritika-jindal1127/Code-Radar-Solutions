@@ -3,9 +3,9 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(age>=18)
+    if(a>=18)
     printf("Eligible");
-    else if(age<18)
+    else if(a<18)
     printf("Not Eligible");
     return 0;
 }
