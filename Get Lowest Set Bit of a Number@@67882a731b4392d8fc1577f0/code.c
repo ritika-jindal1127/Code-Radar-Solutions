@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    int count=0;
-    while
+    int n;
+    scanf("%d",&n);
+    int zero=0;
+    while((n&1)==0){
+        n=n>>1;
+        zero++;
+    }
+    printf("%d",zero);
+    return ;
 }
