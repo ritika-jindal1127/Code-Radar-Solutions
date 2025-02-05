@@ -1,13 +1,13 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     int n;
     scanf("%d",&n);
-    int zero=0;
+    int zeroes=0;
     while((n&1)==0){
         n=n>>1;
         zero++;
+
     }
     printf("%d",zero);
-    return ;
+    return 0;
 }
