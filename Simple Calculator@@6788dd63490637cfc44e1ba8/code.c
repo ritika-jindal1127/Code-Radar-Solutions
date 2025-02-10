@@ -18,7 +18,7 @@ int main()
     if(b!=0)
     printf("%d",a/b);
     else(b!=0)
-    printf("error")
+    printf("error");
 break;
 default:
 printf("error");
