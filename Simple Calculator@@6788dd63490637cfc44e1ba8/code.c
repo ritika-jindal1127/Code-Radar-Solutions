@@ -16,9 +16,11 @@ int main()
     break;
     case'/':
     printf("%d",a/b);
+    else(b!=0)
+    printf("error")
     break;
     default:
-    printf("Invalid");
+    printf("error");
 
     }
     return 0;
