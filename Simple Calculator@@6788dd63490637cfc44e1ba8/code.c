@@ -3,7 +3,7 @@ int main()
 {
     int a,b;
     char op;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&op);
     switch(op){
     case'+':
     printf("%d",a+b);
@@ -17,9 +17,9 @@ int main()
     case'/':
     if(b!=0)
     printf("%d",a/b);
-    else(b!=0)
-    printf("error");
-break;
+    else{
+    printf("error");}
+    break;
 default:
 printf("error");
 
