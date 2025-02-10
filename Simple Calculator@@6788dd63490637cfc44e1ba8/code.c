@@ -18,10 +18,10 @@ int main()
     printf("%d",a/b);
     else(b!=0)
     printf("error")
-    break;
-    default:
-    printf("error");
+break;
+default:
+printf("error");
 
-    }
+}
     return 0;
 }
