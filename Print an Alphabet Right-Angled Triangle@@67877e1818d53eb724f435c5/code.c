@@ -7,10 +7,6 @@ int main()
     scanf("%d",&N);
     for(i=1;i<=N;i++)
     {
-        /*for(j='A';j<'A'+i;j++)
-        {
-            printf("%c ",j);
-        }*/
         ch='A';
         for(j=1;j<=i;j++)
         {
@@ -26,3 +22,23 @@ int main()
 //i=3 j=1 2 3  J= A B C
 //i=4 j=1 2 3 4 J= A B C D
 //FOR(i=1;)
+/*
+#include<stdio.h>
+int main()
+{
+    int i,N;
+    char j;
+    scanf("%d",&N);
+    for(i=1;i<=N;i++)
+    {
+        for(j='A';j<'A'+i;j++)
+        {
+            printf("%c ",j);
+        }
+        
+        
+        printf("\n");
+    }
+    return 0;
+}
+*/
