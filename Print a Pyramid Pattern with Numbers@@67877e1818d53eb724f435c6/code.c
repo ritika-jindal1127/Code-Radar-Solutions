@@ -18,3 +18,9 @@ int main()
     }
     return 0;
 }
+//if n=5
+//i=1 sp=4 j=1
+//i=2 sp=3 j=2
+//i=3 sp=2 j=3
+//i=4 sp=1 j=4
+//i=5 sp=0 j=5
