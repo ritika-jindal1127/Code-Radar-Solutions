@@ -15,3 +15,7 @@ int main()
     }
     return 0;
 }
+//i=1 j=1 j=A
+//i=2 j=1 2 j=A B
+//i=3 j=1 2 3  J= A B C
+//i=4 j=1 2 3 4 J= A B C D
