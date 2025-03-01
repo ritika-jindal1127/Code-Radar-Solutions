@@ -2,14 +2,19 @@
 #include<stdio.h>
 int main()
 {
-    int i,N;
-    char j;
+    int i,N,j;
+    char ch='A';
     scanf("%d",&N);
     for(i=1;i<=N;i++)
     {
-        for(j='A';j<'A'+i;j++)
+        /*for(j='A';j<'A'+i;j++)
         {
             printf("%c ",j);
+        }*/
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",ch);
+            ch++;
         }
         printf("\n");
     }
@@ -19,3 +24,4 @@ int main()
 //i=2 j=1 2 j=A B
 //i=3 j=1 2 3  J= A B C
 //i=4 j=1 2 3 4 J= A B C D
+//FOR(i=1;)
