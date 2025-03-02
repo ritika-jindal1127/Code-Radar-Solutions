@@ -13,6 +13,7 @@ int main()
         for(j='A';j<='A'+i;j++){
             printf("%d",j);
         }
+        printf("\n");
     }
     return 0;
 }
