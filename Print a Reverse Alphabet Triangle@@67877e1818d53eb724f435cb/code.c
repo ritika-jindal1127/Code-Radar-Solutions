@@ -5,10 +5,10 @@ int main()
     int i,j,N;
     char ch;
     scanf("%d",&N);
-    for(i=1;i<=N;i++)
+    for(i=N;i>=N;i--)
     {
         ch='A';
-        for(j=1;j<=N;j--){
+        for(j=1;j<=N;j++){
             printf("%c ",j);
             ch--;
         }
