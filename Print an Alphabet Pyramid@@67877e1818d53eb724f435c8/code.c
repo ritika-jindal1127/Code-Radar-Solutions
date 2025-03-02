@@ -11,7 +11,7 @@ int main()
             printf(" ");
         }
         for(j='A';j<='A'+i;j++){
-            printf("\n");
+            printf("%d",j);
         }
     }
     return 0;
