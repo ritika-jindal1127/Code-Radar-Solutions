@@ -10,7 +10,7 @@ int main()
         ch='a';
         for(j=1;j<=N;j--){
             printf("%c ",j);
-            ch++
+            ch++;
         }
         printf("\n");
     }
