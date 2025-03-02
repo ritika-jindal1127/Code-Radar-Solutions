@@ -7,9 +7,9 @@ int main()
     scanf("%d",&N);
     for(i=0;i<=N;i++)
     {
-        for(sp=0;sp<=N-i;sp++){
+        /*for(sp=0;sp<=N-i;sp++){
             printf(" ");
-        }
+        }*/
         for(j='A';j<='A'+i;j++){
             printf("%d ",j);
         }
