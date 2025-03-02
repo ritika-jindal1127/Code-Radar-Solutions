@@ -4,6 +4,7 @@ int main()
 {
     int i,N,sp;
     char j;
+    scanf("%d",&N);
     for(i=0;i<=N;i++)
     {
         for(sp=0;sp<=N-i;sp++){
