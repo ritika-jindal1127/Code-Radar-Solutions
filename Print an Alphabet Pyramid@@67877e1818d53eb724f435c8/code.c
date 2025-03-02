@@ -10,7 +10,7 @@ int main()
         /*for(sp=0;sp<=N-i;sp++){
             printf(" ");
         }*/
-        char j
+        char j=0;
         for(j='A';j<='A'+i;j++){
             printf("%c ",j);
             j++
