@@ -10,8 +10,10 @@ int main()
         /*for(sp=0;sp<=N-i;sp++){
             printf(" ");
         }*/
+        char j
         for(j='A';j<='A'+i;j++){
-            printf("%d ",j);
+            printf("%c ",j);
+            j++
         }
         printf("\n");
     }
