@@ -13,10 +13,10 @@ int main()
         ch='A';
         for(j=1;j<=i;j++)
         {
-            printf("%c ",ch);
+            printf("%c",ch);
             ch++;
         }
-        //printf("\n");
+        printf("\n");
     }
     return 0;
 }
