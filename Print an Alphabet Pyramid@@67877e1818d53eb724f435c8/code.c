@@ -13,7 +13,7 @@ int main()
         char j=0;
         for(j='A';j<='A'+i;j++){
             printf("%c ",j);
-            j++
+            j++;
         }
         printf("\n");
     }
