@@ -2,14 +2,16 @@
 #include<stdio.h>
 int main()
 {
-    int i,N,j;
-    
-    for(int i=0;i<=N;i++)
+    int i,N;
+    char j;
+    for(i=0;i<=N;i++)
     {
-        for(j=0;j<=N;j++){
+        for(sp=0;sp<=N-i;sp++){
             printf(" ");
         }
-        
+        for(j='A';j<='A'+i;j++){
+            printf("\n");
+        }
     }
     return 0;
 }
