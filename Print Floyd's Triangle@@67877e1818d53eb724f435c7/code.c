@@ -6,9 +6,11 @@ int main()
     scanf("%d",&N);
     for(i=1;i<=N;i++)
     {
-        for(j=1;j<=N+1;j++){
+        for(j=1;j=N+1;j++){
             printf("%d ",j);
         }
         printf("\n");
     }
 }
+i=1 j=1
+i=2 j=2
