@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,N;
+    int i,N,sp;
     char j;
     for(i=0;i<=N;i++)
     {
