@@ -12,5 +12,5 @@ int main()
         printf("\n");
     }
 }
-i=1 j=1
-i=2 j=2
+/*i=1 j=1
+i=2 j=2*/
