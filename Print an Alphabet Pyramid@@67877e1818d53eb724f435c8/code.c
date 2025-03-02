@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,N;
-    char j;
+    int i,N,j;
+    
     for(int i=0;i<=N;i++)
     {
-        for(char j=0;j<=N;j++){
+        for(j=0;j<=N;j++){
             printf(" ");
         }
         
