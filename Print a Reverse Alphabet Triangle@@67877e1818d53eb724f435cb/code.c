@@ -7,7 +7,7 @@ int main()
     scanf("%d",&N);
     for(i=N;i>=1;i--)
     {
-        ch='A';
+        ch='A'+i -1;
         for(j=1;j<=i;j++){
             printf("%c ",ch);
             ch--;
