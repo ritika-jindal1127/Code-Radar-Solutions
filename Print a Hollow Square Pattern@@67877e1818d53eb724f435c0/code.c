@@ -2,16 +2,22 @@
 #include<stdio.h>
 int main()
 {
-    int N,i,j;
-    scanf("%d",&N);
-    for(i=1;i<=N;i++)
+    int a;
+    scanf("%d",&a);
+    for(int i=0;i<a;i++)
     {
-        for(j=1;j<=N;j++)
+        for(int j=0;j<a;j++)
         {
-            if(i==1||i==4||j==1||j==4)
+            if(i==0||i==(a-1)){
                 printf("*");
-            else
-                printf(" ");
+            }
+            else{
+                if(j==0||j==(a-1)){
+                printf("*");
+                }
+                else{
+                    printf(" ");
+                }
         }
         printf("\n");
     }
