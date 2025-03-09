@@ -14,12 +14,12 @@ int main() {
 
         // Print the increasing numbers
         for (j = 1; j <= i; j++) {
-            printf("%d ", j);
+            printf("%d", j);
         }
 
         // Print the decreasing numbers
         for (j = i - 1; j >= 1; j--) {
-            printf("%d ", j);
+            printf("%d", j);
         }
 
         printf("\n"); // Move to the next row
