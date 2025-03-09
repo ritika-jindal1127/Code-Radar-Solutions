@@ -9,7 +9,7 @@ int main() {
     for (i = 1; i <= N; i++) {
         // Print spaces to align the triangle in an acute shape
         for (j = 1; j <= N - i; j++) {
-            printf("  "); // Print two spaces for better alignment
+            printf(" "); // Print two spaces for better alignment
         }
 
         // Print the increasing numbers
