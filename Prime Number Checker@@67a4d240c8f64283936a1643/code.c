@@ -18,7 +18,7 @@ int isPrime(int num)
 
    }
    else if (num==1)
-   return 1;
+   return 0;
    else
    return 0;
 }
