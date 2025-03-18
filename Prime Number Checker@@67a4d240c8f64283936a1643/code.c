@@ -8,7 +8,7 @@ int isPrime(int num)
    {
     if(num%i==0)
     {
-       count=0;
+
        count++;
     }
 
