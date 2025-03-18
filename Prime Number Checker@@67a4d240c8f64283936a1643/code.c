@@ -1,7 +1,7 @@
 // Your code here... m 
 #include<stdio.h>
 int isPrime(int );
-void isPrime(int num)
+int isPrime(int num)
 {
    int count=0;
    for(int i=2;i<num;i++)
@@ -15,11 +15,11 @@ void isPrime(int num)
 
    }
    if(count==0){
-    printf("1");
+    return 1;
 
    }
    else
-   printf("0");
+   return 0;
 }
 int main()
 {
