@@ -1,5 +1,6 @@
 // Your code here... m 
 #include<stdio.h>
+
 int isPrime(int num)
 {
    int count=0;
