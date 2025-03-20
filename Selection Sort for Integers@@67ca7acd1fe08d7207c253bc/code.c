@@ -14,7 +14,6 @@ selectionSort arr(int arr,n)
     arr[minindex]=arr[i];
     arr[i]=temp;
   }
-  
 }
 
 
