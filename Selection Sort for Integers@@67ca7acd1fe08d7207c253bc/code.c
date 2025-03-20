@@ -29,8 +29,7 @@ int printArray(int arr[], int n) {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    break;
-    return 0; // Return 0 to indicate successful execution
+    //return 0; // Return 0 to indicate successful execution
 }
 
 // Function to perform selection sort
