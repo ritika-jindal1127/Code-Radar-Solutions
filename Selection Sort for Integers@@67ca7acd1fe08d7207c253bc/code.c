@@ -1,6 +1,6 @@
 // Your code here...
 
-selectionSort arr(int arr,n)
+selectionSort (int arr,n)
 {
   for(int i=0;i<n-1;i++)
   {
