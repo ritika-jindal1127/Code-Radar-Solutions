@@ -10,11 +10,11 @@ int selectionSort (int arr[],int n)
             minIndex = j;
         }
     }
-    temp=arr[minIndex];
+     int temp=arr[minIndex];
     arr[minindex]=arr[i];
     arr[i]=temp;
   }
-  printArray(arr,n);
+  int printArray(arr,n);
 }
 printArray(int arr[],int n)
 {
