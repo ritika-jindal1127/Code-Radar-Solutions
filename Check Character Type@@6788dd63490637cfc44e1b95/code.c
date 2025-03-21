@@ -29,7 +29,7 @@ int main()
         else if((ch>='a' && ch<='z')||(ch>='A'&&ch<='Z')){
             printf("Consonant");
         }
-        else if(isdigit(ch)){
+        else if(digit(ch)){
             printf("Digit");
         }
             else{
